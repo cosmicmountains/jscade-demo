@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>jscade</title>
+        <style type="text/css">
+            body {
+                margin: 0;
+                background: #112;
+            }
+            .canvas-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            canvas {
+                box-sizing: border-box;
+                image-rendering: pixelated;
+                image-rendering: crisp-edges;
+                height: 100vh;
+            }
+            #jscade-loading-status {
+                position: absolute;
+                font-size: 24px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #e0e0e0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="canvas-wrapper">
+            <!-- Loading Status shown inside here -->
+            <div id="jscade-loading-status"></div>
+
+            <!-- Game will run inside here -->
+            <canvas id="jscade-app" width="1920" height="1080"></canvas>
+        </div>
+
+        <!-- Game init script -->
+        <!--
+            Note:
+            Since the Parcel bundler is being used, `type="module"` has been removed from
+            the following script tag. When it's left in, it causes an error
+            with Parcel. This issue will be fixed when Parcel 2 is released.
+            
+            More info here: https://github.com/parcel-bundler/parcel/issues/1401
+        -->
+        <script src="./index.js"></script>
+    </body>
+</html>

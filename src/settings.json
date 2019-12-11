@@ -1,0 +1,7 @@
+{
+    "gridSize": 16,
+    "startingScene": "stage1",
+    "defaultBackgroundColor": [0.1, 0.5, 0.4, 1],
+    "defaultCameraZoom": 4,
+    "HUDScaling": 6
+}

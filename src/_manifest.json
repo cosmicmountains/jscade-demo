@@ -1,0 +1,21 @@
+{
+  "scenes": [
+    "stage1.json",
+    "stage2.json"
+  ],
+  "sounds": [
+    "aEnemyFireball.wav",
+    "aExplode.wav",
+    "aFire.wav",
+    "aHit.wav",
+    "aJump.wav",
+    "aOrb.wav",
+    "mWorld1.ogg"
+  ],
+  "textures": [
+    "characters.png",
+    "world1-behind.png",
+    "world1-caves.png",
+    "world1.png"
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "tWorld1Behind",
+    "texture": "world1-behind",
+    "depth": 1020,
+    "autoTile": true,
+    "autoCollisions": "top",
+    "UUID": "99cb45e0-7962-5614-066b-bc569bddb405"
+  },
+  {
+    "name": "tWorld1Caves",
+    "texture": "world1-caves",
+    "depth": 1010,
+    "autoTile": true,
+    "UUID": "4ecd7a89-12c8-32c1-d076-3851680715c7"
+  },
+  {
+    "name": "tWorld1",
+    "texture": "world1",
+    "depth": 1000,
+    "autoTile": true,
+    "autoCollisions": true,
+    "instanceTiles": [],
+    "UUID": "4d1e720b-c46b-3a83-9144-027f4df60970"
+  }
+]

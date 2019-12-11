@@ -1,0 +1,91 @@
+[
+    {
+        "name": "sPlayerIdle",
+        "texture": "characters",
+        "sheetPos": [0, 0],
+        "size": [16, 16],
+        "origin": [8, 16],
+        "frames": 4
+    },
+    {
+        "name": "sPlayerWalk",
+        "texture": "characters",
+        "sheetPos": [0, 16],
+        "size": [16, 16],
+        "origin": [8, 16],
+        "frames": 4
+    },
+    {
+        "name": "sPlayerJump",
+        "texture": "characters",
+        "sheetPos": [64, 0],
+        "size": [16, 16],
+        "origin": [8, 16],
+        "frames": 4
+    },
+    {
+        "name": "sPlayerFall",
+        "texture": "characters",
+        "sheetPos": [64, 16],
+        "size": [16, 16],
+        "origin": [8, 16],
+        "frames": 4
+    },
+    {
+        "name": "sEnemy",
+        "texture": "characters",
+        "sheetPos": [80, 32],
+        "size": [16, 16],
+        "origin": [8, 16],
+        "frames": 4
+    },
+    {
+        "name": "sFireball",
+        "texture": "characters",
+        "sheetPos": [128, 0],
+        "size": [16, 16],
+        "origin": [8, 8]
+    },
+    {
+        "name": "sEnemyFireball",
+        "texture": "characters",
+        "sheetPos": [144, 0],
+        "size": [16, 16],
+        "origin": [8, 8]
+    },
+    {
+        "name": "sOrb",
+        "texture": "characters",
+        "sheetPos": [128, 16],
+        "size": [16, 16],
+        "origin": [8, 8]
+    },
+    {
+        "name": "sTree",
+        "texture": "characters",
+        "sheetPos": [0, 32],
+        "size": [80, 80],
+        "origin": [40, 80]
+    },
+    {
+        "name": "sHills",
+        "texture": "characters",
+        "sheetPos": [480, 288],
+        "size": [240, 135],
+        "origin": [0, 0]
+    },
+    {
+        "name": "sMountains",
+        "texture": "characters",
+        "sheetPos": [240, 288],
+        "size": [240, 135],
+        "origin": [0, 0]
+    },
+    {
+        "name": "sSky",
+        "texture": "characters",
+        "sheetPos": [0, 288],
+        "size": [240, 135],
+        "origin": [0, 0]
+    }
+]

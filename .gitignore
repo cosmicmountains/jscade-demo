@@ -1,0 +1,6 @@
+.cache
+dist
+node_modules
+TODO
+NOTES
+package-lock.json

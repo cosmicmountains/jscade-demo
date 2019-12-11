@@ -1,0 +1,22 @@
+{
+  "name": "jscade-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm-run-all --parallel dev-tools game",
+    "game": "parcel src/index.html",
+    "dev-tools": "jscade-dev-tools ./src --stamps-scale 2 --zoom 200 --grid false",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "staticFiles": {
+    "staticPath": "src",
+    "watcherGlob": "**"
+  },
+  "dependencies": {
+    "jscade": "^0.2.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "parcel": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.2.0"
+  }
+}

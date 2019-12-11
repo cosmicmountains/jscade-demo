@@ -1,0 +1,26 @@
+[
+  {
+    "gameObject": "oEnemy",
+    "offset": [
+      -8,
+      -8
+    ],
+    "UUID": "6fced008-f766-e112-26e3-cf1f5240d0ba"
+  },
+  {
+    "gameObject": "oOrb",
+    "UUID": "45666d5f-d1a1-c504-8656-e4fee4088fd5"
+  },
+  {
+    "gameObject": "oPlayer",
+    "offset": [
+      -8,
+      -8
+    ],
+    "UUID": "88be016d-a0bc-a28f-4ca5-673555f37490"
+  },
+  {
+    "gameObject": "oTree",
+    "UUID": "9093adee-9a43-3bc6-1561-f4a552dd069d"
+  }
+]
